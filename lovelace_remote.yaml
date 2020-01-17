@@ -1,210 +1,232 @@
-type: picture-elements
-image: /local/remote.png
 elements:
   - type: service-button
     service: media_player.toggle
     service_data:
       entity_id: media_player.lg_webos_smart_tv
     style:
-      top: 11.3%
       left: 50.4%
+      top: 11.3%
   - type: service-button
     service: media_player.volume_up
     service_data:
       entity_id: media_player.lg_webos_smart_tv
     style:
-      top: 62%
       left: 34%
+      top: 62%
   - type: service-button
     service: media_player.volume_down
     service_data:
       entity_id: media_player.lg_webos_smart_tv
     style:
-      top: 75%
       left: 34%
+      top: 75%
   - type: service-button
-    service: mqtt.publish
+    service: webostv.command
     service_data:
-      topic: lg/set/button
-      payload: up
+      command: 123/placeholder
+      entity_id: media_player.lg_webos_smart_tv
     style:
-      top: 22%
+      left: 67%
+      top: 11.3%
+  - type: service-button
+    service: webostv.command
+    service_data:
+      command: hamburger/placeholder
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 33%
+      top: 11.3%
+  - type: service-button
+    service: webostv.button
+    service_data:
+      button: UP
+      entity_id: media_player.lg_webos_smart_tv
+    style:
       left: 50.5%
+      top: 22%
   - type: service-button
-    service: mqtt.publish
+    service: webostv.button
     service_data:
-      topic: lg/set/button
-      payload: down
+      button: DOWN
+      entity_id: media_player.lg_webos_smart_tv
     style:
+      left: 50.5%
       top: 41%
-      left: 50.5%
   - type: service-button
-    service: mqtt.publish
+    service: webostv.button
     service_data:
-      topic: lg/set/button
-      payload: left
+      button: LEFT
+      entity_id: media_player.lg_webos_smart_tv
     style:
-      top: 32%
       left: 35%
-  - type: service-button
-    service: mqtt.publish
-    service_data:
-      topic: lg/set/button
-      payload: right
-    style:
-      top: 31.7%
-      left: 67%
-  - type: service-button
-    service: mqtt.publish
-    service_data:
-      topic: lg/set/button
-      payload: enter
-    style:
       top: 32%
-      left: 50.5%
   - type: service-button
-    service: mqtt.publish
+    service: webostv.button
     service_data:
-      topic: lg/set/button
-      payload: mute
+      button: RIGHT
+      entity_id: media_player.lg_webos_smart_tv
     style:
+      left: 67%
+      top: 31.7%
+  - type: service-button
+    service: webostv.button
+    service_data:
+      button: ENTER
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 50.5%
+      top: 32%
+  - type: service-button
+    service: webostv.button
+    service_data:
+      button: MUTE
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 50.5%
       top: 68.6%
-      left: 50.5%
   - type: service-button
-    service: mqtt.publish
+    service: webostv.button
     service_data:
-      topic: lg/set/button
-      payload: menu
+      button: INFO
+      entity_id: media_player.lg_webos_smart_tv
     style:
-      top: 60.3%
-      left: 50.5%
+      left: 50%
+      top: 76.5%
   - type: service-button
-    service: mqtt.publish
+    service: webostv.button
     service_data:
-      topic: lg/set/button
-      payload: cc
+      button: HOME
+      entity_id: media_player.lg_webos_smart_tv
     style:
-      top: 76.7%
-      left: 50.5%
+      left: 50%
+      top: 60%
   - type: service-button
-    service: mqtt.publish
+    service: webostv.button
     service_data:
-      topic: lg/set/button
-      payload: channelup
+      button: CHANNELUP
+      entity_id: media_player.lg_webos_smart_tv
     style:
+      left: 67%
       top: 61%
-      left: 67%
   - type: service-button
-    service: mqtt.publish
+    service: webostv.button
     service_data:
-      topic: lg/set/button
-      payload: channeldown
+      button: CHANNELDOWN
+      entity_id: media_player.lg_webos_smart_tv
     style:
+      left: 67%
       top: 75%
-      left: 67%
   - type: service-button
-    service: mqtt.publish
+    service: webostv.command
     service_data:
-      topic: lg/set/media.controls/play
+      command: media.controls/play
+      entity_id: media_player.lg_webos_smart_tv
     style:
-      top: 85%
+      left: 33%
+      top: 84.5%
+  - type: service-button
+    service: webostv.command
+    service_data:
+      command: media.controls/pause
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 50%
+      top: 84.5%
+  - type: service-button
+    service: webostv.command
+    service_data:
+      command: record/placeholder
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 50%
+      top: 90.5%
+  - type: service-button
+    service: webostv.command
+    service_data:
+      command: media.controls/stop
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 67%
+      top: 84.5%
+  - type: service-button
+    service: webostv.command
+    service_data:
+      command: media.controls/rewind
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 33%
+      top: 90.5%
+  - type: service-button
+    service: webostv.command
+    service_data:
+      command: media.controls/fastForward
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 67%
+      top: 90.5%
+  - type: service-button
+    service: webostv.button
+    service_data:
+      button: BACK
+      entity_id: media_player.lg_webos_smart_tv
+    style:
       left: 34%
-  - type: service-button
-    service: mqtt.publish
-    service_data:
-      topic: lg/set/media.controls/pause
-    style:
-      top: 85%
-      left: 51%
-  - type: service-button
-    service: mqtt.publish
-    service_data:
-      topic: lg/set/media.controls/stop
-    style:
-      top: 85%
-      left: 67%
-  - type: service-button
-    service: mqtt.publish
-    service_data:
-      topic: lg/set/media.controls/rewind
-    style:
-      top: 91%
-      left: 34%
-  - type: service-button
-    service: mqtt.publish
-    service_data:
-      topic: lg/set/media.controls/fastForward
-    style:
-      top: 91%
-      left: 67%
-  - type: service-button
-    service: mqtt.publish
-    service_data:
-      topic: lg/set/media.controls/record
-    style:
-      top: 91%
-      left: 51%
-  - type: service-button
-    service: mqtt.publish
-    service_data:
-      topic: lg/set/button
-      payload: back
-    style:
       top: 41.5%
-      left: 34%
   - type: service-button
-    service: mqtt.publish
+    service: webostv.button
     service_data:
-      topic: lg/set/button
-      payload: exit
+      button: EXIT
+      entity_id: media_player.lg_webos_smart_tv
     style:
-      top: 41.5%
       left: 67%
+      top: 41.5%
   - type: service-button
-    service: mqtt.publish
+    service: media_player.select_source
     service_data:
-      topic: lg/set/launch
-      payload: netflix
+      entity_id: media_player.lg_webos_smart_tv
+      source: Netflix
     style:
-      top: 51.6%
       left: 30%
-  - type: service-button
-    service: mqtt.publish
-    service_data:
-      topic: lg/set/launch
-      payload: hulu
-    style:
       top: 51.6%
+  - type: service-button
+    service: media_player.select_source
+    service_data:
+      entity_id: media_player.lg_webos_smart_tv
+      source: Hulu
+    style:
       left: 45%
-  - type: service-button
-    service: mqtt.publish
-    service_data:
-      topic: lg/set/launch
-      payload: cdp-30
-    style:
       top: 51.6%
+  - type: service-button
+    service: media_player.select_source
+    service_data:
+      entity_id: media_player.lg_webos_smart_tv
+      source: Plex
+    style:
       left: 56%
-  - type: service-button
-    service: mqtt.publish
-    service_data:
-      topic: lg/set/launch
-      payload: amazon
-    style:
       top: 51.6%
+  - type: service-button
+    service: media_player.select_source
+    service_data:
+      entity_id: media_player.lg_webos_smart_tv
+      source: Amazon Prime Video
+    style:
       left: 69%
+      top: 51.6%
   - type: service-button
-    service: mqtt.publish
+    service: webostv.command
     service_data:
-      topic: lg/set/launch
-      payload: com.webos.app.browser
+      command: input/placeholder
+      entity_id: media_player.lg_webos_smart_tv
     style:
-      top: 22%
-      left: 34%
-  - type: service-button
-    service: mqtt.publish
-    service_data:
-      topic: lg/set/button
-      payload: input
-    style:
-      top: 22%
       left: 67%
+      top: 22%
+  - type: service-button
+    service: webostv.command
+    service_data:
+      command: smart/placeholder
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 33%
+      top: 22%
+image: /local/resources/remote.png
+type: picture-elements
