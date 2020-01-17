@@ -1,5 +1,5 @@
 # LG-Webos-Remote
-Similar to the Roku Remote I've shared, I wanted to have a clickable remote control within Home assistant for my new LG WebOStv so I took advantage of a few things to stitch one together.
+Similar to the Roku Remote I've shared, I wanted to have a clickable remote control within Home assistant for my new LG WebOStv so here it is if you want it.
 
 ![Remote](https://github.com/moistgun/LG-Webos-Remote/blob/master/remote.png)
 
