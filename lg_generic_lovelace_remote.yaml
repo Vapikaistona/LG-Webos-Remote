@@ -1,0 +1,232 @@
+elements:
+  - type: service-button
+    service: media_player.toggle
+    service_data:
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 50.4%
+      top: 11.3%
+  - type: service-button
+    service: media_player.volume_up
+    service_data:
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 34%
+      top: 62%
+  - type: service-button
+    service: media_player.volume_down
+    service_data:
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 34%
+      top: 75%
+  - type: service-button
+    service: webostv.command
+    service_data:
+      command: 123/placeholder
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 67%
+      top: 11.3%
+  - type: service-button
+    service: webostv.command
+    service_data:
+      command: hamburger/placeholder
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 33%
+      top: 11.3%
+  - type: service-button
+    service: webostv.button
+    service_data:
+      button: UP
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 50.5%
+      top: 22%
+  - type: service-button
+    service: webostv.button
+    service_data:
+      button: DOWN
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 50.5%
+      top: 41%
+  - type: service-button
+    service: webostv.button
+    service_data:
+      button: LEFT
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 35%
+      top: 32%
+  - type: service-button
+    service: webostv.button
+    service_data:
+      button: RIGHT
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 67%
+      top: 31.7%
+  - type: service-button
+    service: webostv.button
+    service_data:
+      button: ENTER
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 50.5%
+      top: 32%
+  - type: service-button
+    service: webostv.button
+    service_data:
+      button: MUTE
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 50.5%
+      top: 68.6%
+  - type: service-button
+    service: webostv.button
+    service_data:
+      button: INFO
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 50%
+      top: 76.5%
+  - type: service-button
+    service: webostv.button
+    service_data:
+      button: HOME
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 50%
+      top: 60%
+  - type: service-button
+    service: webostv.button
+    service_data:
+      button: CHANNELUP
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 67%
+      top: 61%
+  - type: service-button
+    service: webostv.button
+    service_data:
+      button: CHANNELDOWN
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 67%
+      top: 75%
+  - type: service-button
+    service: webostv.command
+    service_data:
+      command: media.controls/play
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 33%
+      top: 84.5%
+  - type: service-button
+    service: webostv.command
+    service_data:
+      command: media.controls/pause
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 50%
+      top: 84.5%
+  - type: service-button
+    service: webostv.command
+    service_data:
+      command: record/placeholder
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 50%
+      top: 90.5%
+  - type: service-button
+    service: webostv.command
+    service_data:
+      command: media.controls/stop
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 67%
+      top: 84.5%
+  - type: service-button
+    service: webostv.command
+    service_data:
+      command: media.controls/rewind
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 33%
+      top: 90.5%
+  - type: service-button
+    service: webostv.command
+    service_data:
+      command: media.controls/fastForward
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 67%
+      top: 90.5%
+  - type: service-button
+    service: webostv.button
+    service_data:
+      button: BACK
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 34%
+      top: 41.5%
+  - type: service-button
+    service: webostv.button
+    service_data:
+      button: EXIT
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 67%
+      top: 41.5%
+  - type: service-button
+    service: media_player.select_source
+    service_data:
+      entity_id: media_player.lg_webos_smart_tv
+      source: Netflix
+    style:
+      left: 30%
+      top: 51.6%
+  - type: service-button
+    service: media_player.select_source
+    service_data:
+      entity_id: media_player.lg_webos_smart_tv
+      source: Hulu
+    style:
+      left: 45%
+      top: 51.6%
+  - type: service-button
+    service: media_player.select_source
+    service_data:
+      entity_id: media_player.lg_webos_smart_tv
+      source: Plex
+    style:
+      left: 56%
+      top: 51.6%
+  - type: service-button
+    service: media_player.select_source
+    service_data:
+      entity_id: media_player.lg_webos_smart_tv
+      source: Amazon Prime Video
+    style:
+      left: 69%
+      top: 51.6%
+  - type: service-button
+    service: webostv.command
+    service_data:
+      command: input/placeholder
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 67%
+      top: 22%
+  - type: service-button
+    service: webostv.command
+    service_data:
+      command: smart/placeholder
+      entity_id: media_player.lg_webos_smart_tv
+    style:
+      left: 33%
+      top: 22%
+image: /local/resources/remote.png
+type: picture-elements
