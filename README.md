@@ -8,6 +8,8 @@ I am controlling the power toggle on the TV using the built in Media player serv
 I took the remote image from here, https://dribbble.com/shots/5363712-Universal-TV-Remote-App-Design
 And used the picture elements lovelace card to display it and stack buttons over top.
 
+Iddo added support for the magic remote which can alternatively be used if you don't want the generic remote support.
+
 Prerequisites: 
 
 - Home Assistant version 0.104 or greater
@@ -15,23 +17,23 @@ Prerequisites:
 
 Steps to setup:
 
-1) Copy the remote.png image into your /config/www/ folder
+1) Copy the relevant remote image into your /config/www/ folder
 
-2) Copy the lovelace_remote.yaml contents into a manual card
+2) Copy the relevant lovelace_remote.yaml contents into a manual lovelace card 
 
 3) Replace the Media player entity id with your entity id if its different
 
 *Notes
 
-Sources can be updated to match what you want, but this template is setup as such
+Sources can be updated to match what you want, but the generic template is setup as such
 Red - Netflix
 Green - Hulu
 Yellow - Plex
 Blue - Amazon Prime
 
 I could not get every button to do something that made sense so if you have better luck, please let me know!
-
-Currently not operating in the image
+In the mean time, the images have placeholder buttons, so you should be able to easily update the remote to your liking.
+Currently not operating in the generic image
 - Hamburger
 - Smart
 - 123
