@@ -2,7 +2,9 @@
 Similar to the Roku Remote I've shared, I wanted to have a clickable remote control within Home assistant for my new LG WebOStv so here it is if you want it.
 
 ![Remote](https://github.com/moistgun/LG-Webos-Remote/blob/master/remote.png)
-![Remote](https://github.com/moistgun/LG-Webos-Remote/master/lgremote.jpg)
+
+![Magic Remote](https://github.com/moistgun/LG-Webos-Remote/master/lgremote.jpg)
+
 I am controlling the power toggle on the TV using the built in Media player services in home assistant + the Wake on Lan feature in the docs.
 
 I took the remote image from here, https://dribbble.com/shots/5363712-Universal-TV-Remote-App-Design
