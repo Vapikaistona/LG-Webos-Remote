@@ -3,7 +3,7 @@ Similar to the Roku Remote I've shared, I wanted to have a clickable remote cont
 
 ![Remote](https://github.com/moistgun/LG-Webos-Remote/blob/master/remote.png)
 
-![Magic Remote](https://github.com/moistgun/LG-Webos-Remote/master/lgremote.jpg)
+![Magic Remote](https://raw.githubusercontent.com/moistgun/LG-Webos-Remote/master/lgremote.jpg)
 
 I am controlling the power toggle on the TV using the built in Media player services in home assistant + the Wake on Lan feature in the docs.
 
