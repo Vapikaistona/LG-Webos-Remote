@@ -1,11 +1,10 @@
 # LG-Webos-Remote
 Similar to the Roku Remote I've shared, I wanted to have a clickable remote control within Home assistant for my new LG WebOStv so here it is if you want it.
 
-![Remote](https://github.com/moistgun/LG-Webos-Remote/blob/master/remote.png)
 
 ![Magic Remote](https://raw.githubusercontent.com/moistgun/LG-Webos-Remote/master/lgremote.jpg)
 
-I am controlling the power toggle on the TV using the built in Media player services in home assistant + the Wake on Lan feature in the docs.
+![Remote](https://github.com/moistgun/LG-Webos-Remote/blob/master/remote.png)
 
 I took the remote image from here, https://dribbble.com/shots/5363712-Universal-TV-Remote-App-Design
 And used the picture elements lovelace card to display it and stack buttons over top.
@@ -27,11 +26,13 @@ Steps to setup:
 
 *Notes
 
-Sources can be updated to match what you want, but the generic template is setup as such
+Sources can be updated to match what you want, but the generic template is setup as such:
 Red - Netflix
 Green - Hulu
 Yellow - Plex
 Blue - Amazon Prime
+
+The magic remote is not configured as above and only direct maps Netflix and Amazon, leaving the colored buttons to match their standard mapping on the remote
 
 I could not get every button to do something that made sense so if you have better luck, please let me know!
 In the mean time, the images have placeholder buttons, so you should be able to easily update the remote to your liking.
